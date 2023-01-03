@@ -7,7 +7,7 @@ public class Maxthree {
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入第一个数");
         int a = sc.nextInt();
-        System.out.println("请输入第二个数");2
+        System.out.println("请输入第二个数");
         int b = sc.nextInt();
         System.out.println("请输入第三个数");
         int c = sc.nextInt();
