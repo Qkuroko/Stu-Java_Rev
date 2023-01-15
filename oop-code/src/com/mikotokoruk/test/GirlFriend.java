@@ -5,7 +5,6 @@ public class GirlFriend {
     String name;
     int age;
 
-
     //行为
     public static void eat(){
         System.out.println("GirlFriend is eating.");
