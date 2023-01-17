@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/code-03-testarray/code-03-testarray.iml" filepath="$PROJECT_DIR$/code-03-testarray/code-03-testarray.iml" />
       <module fileurl="file://$PROJECT_DIR$/code-04-testmethod/code-04-testmethod.iml" filepath="$PROJECT_DIR$/code-04-testmethod/code-04-testmethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop-code/oop-code.iml" filepath="$PROJECT_DIR$/oop-code/oop-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop-ex/oop-ex.iml" filepath="$PROJECT_DIR$/oop-ex/oop-ex.iml" />
     </modules>
   </component>
 </project>
