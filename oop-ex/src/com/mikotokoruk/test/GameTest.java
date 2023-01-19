@@ -22,6 +22,7 @@ public class GameTest {
             if(r1.getBlood()==0){
                 System.out.println(r2.getName()+"K.O"+r1.getName());
                 break;
+
             }
         }
 
