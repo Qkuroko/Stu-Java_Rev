@@ -16,11 +16,11 @@ public class StudentTest {
         //要求1：再次添加一个学生对象，并在添加的时候进行学号的唯一性判断。
         Student s1 = new Student(001, "小张", 18);
         Student s2 = new Student(002, "小王", 19);
-        Student s3 = new Student(003, "小李", 20);
+//        Student s3 = new Student(003, "小李", 20);
 
         students[0] = s1;
         students[1] = s2;
-        students[2] = s3;
+//        students[2] = s3;
 
         //要求1：再次添加一个学生对象，并在添加的时候进行学号的唯一性判断。
         Student s4 = new Student(004, "小赵", 18);
@@ -56,9 +56,12 @@ public class StudentTest {
 
     //判断是否重复 是否在里面
     public static boolean contains(Student[] students, int id) {
+        //非空才判断
         for (int i = 0; i < students.length; i++) {
-            if (students[i].getId() == id) {
-                return true;
+            if(students[i]!=null){
+                if (students[i].getId() == id) {
+                    return true;
+                }
             }
         }
         return false;
