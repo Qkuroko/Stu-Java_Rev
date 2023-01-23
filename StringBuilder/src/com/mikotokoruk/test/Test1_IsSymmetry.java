@@ -13,6 +13,7 @@ public class Test1_IsSymmetry {
         System.out.println("请输入字符串");
         String str = sc.next();
 
+      //  String result = new StringBuilder(str).append(str).reverse().toString();  //链式编程思想
         StringBuilder sb = new StringBuilder(str);
         if(str.equals( sb.reverse().toString()) ){//不可用==  判断的是地址值
             System.out.println("对称");
