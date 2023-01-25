@@ -10,7 +10,10 @@
       <module fileurl="file://$PROJECT_DIR$/code-04-testmethod/code-04-testmethod.iml" filepath="$PROJECT_DIR$/code-04-testmethod/code-04-testmethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop-code/oop-code.iml" filepath="$PROJECT_DIR$/oop-code/oop-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop-ex/oop-ex.iml" filepath="$PROJECT_DIR$/oop-ex/oop-ex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z002-StudentSystem/z002-StudentSystem.iml" filepath="$PROJECT_DIR$/z002-StudentSystem/z002-StudentSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z002-StudentSystem/z002-StudetnSystem.iml" filepath="$PROJECT_DIR$/z002-StudentSystem/z002-StudetnSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/z01-ArrayListStu/z01-ArrayListStu.iml" filepath="$PROJECT_DIR$/z01-ArrayListStu/z01-ArrayListStu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z02-StudentSystem/z02-StudentSystem.iml" filepath="$PROJECT_DIR$/z02-StudentSystem/z02-StudentSystem.iml" />
     </modules>
   </component>
 </project>
