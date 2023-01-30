@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/z02-StudentSystem/z02-StudentSystem.iml" filepath="$PROJECT_DIR$/z02-StudentSystem/z02-StudentSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/z03-mystatic/z03-mystatic.iml" filepath="$PROJECT_DIR$/z03-mystatic/z03-mystatic.iml" />
       <module fileurl="file://$PROJECT_DIR$/z04-oopextends/z04-oopextends.iml" filepath="$PROJECT_DIR$/z04-oopextends/z04-oopextends.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z05-polymorphism/z05-polymorphism.iml" filepath="$PROJECT_DIR$/z05-polymorphism/z05-polymorphism.iml" />
     </modules>
   </component>
 </project>
