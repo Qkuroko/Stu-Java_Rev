@@ -61,6 +61,8 @@ public class Person {
         }else if(animal instanceof  Cat){
             Cat cat = (Cat) animal;
             System.out.println("人在喂猫"+something);
+        }else{
+            System.out.println("没有这种动物");
         }
     }
 
