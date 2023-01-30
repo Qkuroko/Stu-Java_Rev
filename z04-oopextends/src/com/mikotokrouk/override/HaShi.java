@@ -7,7 +7,12 @@ public class HaShi extends Dog{
 
     @Override
     public void eat() {
-        super.eat();
+        super.eat();//加super.方法名() 会执行父类方法
         System.out.println("吃骨头");
+    }
+
+    @Override
+    public void drink() {
+        System.out.println("哈士奇在喝水");
     }
 }

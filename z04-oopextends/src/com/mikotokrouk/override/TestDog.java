@@ -5,5 +5,6 @@ public class TestDog {
         HaShi hs=new HaShi();
         hs.breakHome();
         hs.eat();
+        hs.drink();
     }
 }
