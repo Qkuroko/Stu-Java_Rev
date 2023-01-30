@@ -48,12 +48,20 @@ public class Person {
         return "Person{name = " + name + ", age = " + age + "}";
     }
 
-    public void keepPet(Dog dog , String something){
-        System.out.println("人在喂狗"+something);
+//    public void keepPet(Dog dog , String something){
+//        System.out.println("人在喂狗"+something);
+//    }
+//    public void keepPet(Cat cat , String something){
+//        System.out.println("人在喂猫"+something);
+//    }
+    public void keepPet(Animal animal,String something){
+        if (animal instanceof Dog){
+            Dog dog = (Dog) animal;
+            System.out.println("人在喂狗"+something);
+        }else if(animal instanceof  Cat){
+            Cat cat = (Cat) animal;
+            System.out.println("人在喂猫"+something);
+        }
     }
-    public void keepPet(Cat cat , String something){
-        System.out.println("人在喂猫"+something);
-    }
-
 
 }
