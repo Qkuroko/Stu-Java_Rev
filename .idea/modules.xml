@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/z04-oopextends/z04-oopextends.iml" filepath="$PROJECT_DIR$/z04-oopextends/z04-oopextends.iml" />
       <module fileurl="file://$PROJECT_DIR$/z05-polymorphism/z05-polymorphism.iml" filepath="$PROJECT_DIR$/z05-polymorphism/z05-polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/z06-oop-abstract/z06-oop-abstract.iml" filepath="$PROJECT_DIR$/z06-oop-abstract/z06-oop-abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z07-oop-interface/z07-oop-interface.iml" filepath="$PROJECT_DIR$/z07-oop-interface/z07-oop-interface.iml" />
     </modules>
   </component>
 </project>
