@@ -1,6 +1,8 @@
 package com.mikotokoruk.ex;
 
-public class Person {
+
+//不让外界创建人的对象 直接创建顶层父类人的对象 没有意义
+public abstract class Person {
     private String name;
     private int age;
 

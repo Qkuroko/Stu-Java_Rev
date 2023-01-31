@@ -1722,4 +1722,22 @@ eg:动物类
       public class 类名 implements 接口名1,接口名2{}
       ```
 
-      
+  * 接口中成员特点
+
+    * 成员变量 :  只能是常量 , 默认修饰符 public static final
+
+    * 构造方法: 没有
+
+    * 成员方法: 只能是抽象方法 默认修饰符: **public abstract (jdk7前)**(可以省略)
+
+      ```java
+      public interface SpeakEnglish {
+          public abstract void speakEnglish();//
+          void speakEnglish();//与上行代码等价
+      }
+      ```
+
+```java
+//不让外界创建人的对象 直接创建顶层父类人的对象 没有意义
+public abstract class Person {}
+```
