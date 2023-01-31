@@ -925,7 +925,34 @@ public class MethodDemo02 {
   //
   ```
 
-  
+
+子类
+
+* 
+  * 要有构造函数 , 重写的抽象方法 和 接口里的方法
+
+```java
+public class Dog extends Animal implements Swim{
+    public Dog() {
+    }
+
+    public Dog(String name, int age) {
+        super(name, age);
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("狗吃骨头");
+    }
+
+    @Override
+    public void swim() {
+        System.out.println("狗在狗刨");
+    }
+}
+```
+
+
 
 #### toString方法
 
