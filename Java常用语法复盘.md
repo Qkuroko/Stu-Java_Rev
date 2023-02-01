@@ -1741,3 +1741,38 @@ eg:动物类
 //不让外界创建人的对象 直接创建顶层父类人的对象 没有意义
 public abstract class Person {}
 ```
+
+
+
+
+
+##### default方法
+
+接口中的默认方法
+
+​	格式: public default 返回值类型 方法名(参数列表){}
+
+* 
+  * 不是抽象方法,不用强制重写,**重写时要去掉default关键字**
+  * public 可以省略,default不可省
+
+* 
+
+  * 场景:大哥给小弟安排的接口中方法都是abstract修饰的,但是如果接口中新加方法,小弟的实现接口的类就会报错(因为用abstract修饰的方法,必须强制子类(父类中)或实现接口的类中重写;) , 大哥接口中的方法如果用default代替abstract修饰 , 添加新的方法就不会报错
+
+  * ```java
+    public interface SpeakEnglish {
+        public abstract void speakEnglish();//
+        void speakEnglish();//与上行代码等价
+        
+        
+        public default void show(){
+            System.out.println("接口中的默认方法 ---show");
+        }
+        default void show(){
+            System.out.println("接口中的默认方法 ---show");
+        }//与上面等价
+    }
+    ```
+
+    
